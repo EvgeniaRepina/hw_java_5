@@ -10,10 +10,11 @@ public class Main {
 
                 }
             }
-             }
-        System.out.println(squareNumber + " квадратов между " + minSquare + " и " + maxSquare );}
+        }
+        System.out.println(squareNumber + " квадратов между " + minSquare + " и " + maxSquare);
+    }
 }
-   //        for (int i = 10; i < 99; i++) {
+//        for (int i = 10; i < 99; i++) {
 //        if (i * i >= 100) {
 //            if (i * i <= 300) {
 //                System.out.println("квадрат " + i + " между 200 и 300");
