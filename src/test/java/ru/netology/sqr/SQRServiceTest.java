@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
     @ParameterizedTest
-    @CsvSource(value = {"В диапозоне от 200 до 300,200,300,3", "В диапозоне от 100 до 200,100,200,5", "В диапозоне о " +
+    @CsvSource(value = {"В диапазоне от 200 до 300,200,300,3", "В диапазоне от 100 до 200,100,200,5", "В диапазоне о " +
             "т 100 до 300,100,300,8"})
      void shouldCalculateSquare(String testName, int minSquare, int maxSquare, int expected) {
 //        создаем экземпляр тестового метода
