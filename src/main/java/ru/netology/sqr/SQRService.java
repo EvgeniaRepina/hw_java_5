@@ -5,11 +5,9 @@ public class SQRService {
 
         int squareNumber = 0;
         for (int i = 10; i < 99; i++) {
-            if (i * i >= minSquare) {
-                if (i * i <= maxSquare) {
-                    squareNumber = squareNumber + 1;
+            if (i * i >= minSquare && i * i <= maxSquare) {
+                squareNumber++;
 
-                }
             }
         }
         return squareNumber;

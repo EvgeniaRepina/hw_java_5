@@ -14,7 +14,7 @@ class SQRServiceTest {
         SQRService service = new SQRService();
         // вызываем целевой метод:
         long actual = service.calculateSquareNumber(minSquare, maxSquare);
-        // производим проверку (сравниваем ожидаемый и фактический):
+
         assertEquals(expected, actual);
     }
 
